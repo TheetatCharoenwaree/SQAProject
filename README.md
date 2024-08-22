@@ -1,0 +1,2 @@
+# SQAProject
+Composite / Visitor
