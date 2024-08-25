@@ -1,0 +1,31 @@
+We are developing a fully functional ATM system using the Java Programming Language and implementing the Visitor Design Pattern. The system should meet the following requirements:
+#System Requirements:
+1)User Authentication:
+1.1)Input: The system must allow users to insert their ATM card and enter a PIN.
+1.2)Verification: The system must verify the correctness of the card and PIN.
+1.3)Attempt Limitation: If the user enters the wrong PIN more than the allowed number of times, the card should be retained.
+2)Balance Display:
+2.1)Data Access: The user can view their account balance.
+2.2)Display: The system must display the current balance.
+3)Cash Withdrawal:
+3.1)Amount Selection: The user can select the amount they wish to withdraw.
+3.2)Balance Verification: The system must verify if there are sufficient funds for the withdrawal.
+3.3)Dispensing Cash: If sufficient funds are available, the system will dispense the cash and update the balance.
+3.4)Insufficient Funds Alert: If there are insufficient funds, the system will notify the user.
+4)Deposit:
+4.1)Cash Reception: The user can deposit cash into the ATM.
+4.2)Money Counting: The system must count the deposited amount.
+4.3)Balance Update: The system must update the account balance accordingly.
+5)PIN Change:
+5.1)Function Access: The user can change their PIN.
+5.2)Confirmation: The system must request the old PIN and the new PIN (entered twice) for confirmation.
+5.3)PIN Update: If the new PIN matches the confirmation, the system will update the user's PIN.
+6)Receipt Printing:
+6.1)Print Option: After completing a transaction, the user can choose to print a receipt.
+6.2)Receipt Content: The receipt must show transaction details, such as date, time, amount, and the remaining balance.
+#Testing Requirements:
+Testing with JUnit5:
+Develop unit tests to achieve 100% statement coverage and 100% branch coverage.
+#Deliverables:
+code : The full implementation of the ATM system.
+unit_test : The JUnit5 script with complete coverage tests.
